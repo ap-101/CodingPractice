@@ -1,0 +1,11 @@
+# Take two values from user and perform the all comparison operations. (=, !=, <, >, <=, >=)
+print('Program to compare two values.')
+a = int(input('Enter a = '))
+b = int(input('Enter b = '))
+
+print(a,' is equal to ',b, a==b)
+print(a,' is not equal to ',b,a!=b)
+print(a,' is less than ',b,a<b)
+print(a,' is greater than ',b,a>b)
+print(a,' is less than equal to ',b,a<=b)
+print(a,' is greater than equal to ',b,a>=b)
